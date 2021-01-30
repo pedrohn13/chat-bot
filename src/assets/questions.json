@@ -1,0 +1,95 @@
+[
+    {
+        "id": 1,
+        "question": "Você tem 18 anos?",
+        "answers": [
+            {
+                "answer": "Sim",
+                "next_question": 3
+            }, 
+            {
+                "answer": "Não",
+                "next_question": 2
+            }
+        ]
+
+    },
+
+    {
+        "id": 2,
+        "question": "Você não tem permissão para acessar o site.",
+        "answers": []
+    },
+
+    {
+        "id": 3,
+        "question": "Qual tipo de cerveja prefere?",
+        "answers": [
+            {
+                "answer": "Amarga",
+                "next_question": 4
+            }, 
+            {
+                "answer": "Leve",
+                "next_question": 5
+            }
+        ]
+    },
+
+    {
+        "id": 4,
+        "question": "Prefere cerveja clara ou escura?",
+        "answers": [
+            {
+                "answer": "Clara",
+                "next_question": 6
+            }, 
+            {
+                "answer": "Escura",
+                "next_question": 7
+            }
+        ]
+    },
+
+    {
+        "id": 5,
+        "question": "Como gosta do sabor do malte?",
+        "answers": [
+            {
+                "answer": "Suave",
+                "next_question": 8
+            }, 
+            {
+                "answer": "Marcante",
+                "next_question": 9
+            }
+        ]
+    },
+
+    {
+        "id": 6,
+        "question": "Sugestão: Cerveja IPA",
+        "answers": []
+    },
+
+    {
+        "id": 7,
+        "question": "Sugestão: Cerveja Stout",
+        "answers": []
+    },
+
+    {
+        "id": 8,
+        "question": "Sugestão: Cerveja Pilsen",
+        "answers": []
+    },
+
+    {
+        "id": 9,
+        "question": "Sugestão: Cerveja Premium Lager",
+        "answers": []
+    }
+
+
+
+]

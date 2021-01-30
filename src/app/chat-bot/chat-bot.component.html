@@ -1,0 +1,21 @@
+<div>
+    <div class="chat-view">
+        <div>
+            <div style="margin-bottom: 10px;">Mestre Cervejeiro</div>
+            <div #chat class="chat-content">
+                <div *ngFor="let message of chatMessages; let odd=odd;" class="chat-text-content">
+                    <div class="chat-ballon" [ngClass]="{'ballon-bot': !odd, 'ballon-user': odd}">{{message}}</div>
+                </div>
+                <div *ngIf="delay" style="color: #888888;
+                font-size: 0.8em;
+                margin-left: 5px;">Mestre Cervejeiro está digitando...</div>
+            </div>
+        </div>
+        <div *ngIf="!finished" style="display: flex; background-color: #ffffff; padding: 10px; border-top: black 1px solid;">
+            <div style="margin: auto;">
+                <button [disabled]="disableButtons" type="button" class="btn btn-primary answer-button" (click)="response(answer1)">{{answer1.answer}}</button>
+                <button [disabled]="disableButtons" type="button" class="btn btn-primary answer-button" (click)="response(answer2)">{{answer2.answer}}</button>
+            </div>
+        </div>
+    </div>
+</div>
