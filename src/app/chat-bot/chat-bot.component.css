@@ -9,6 +9,18 @@
     max-width: 300px;
     width: 300px;
     padding: 10px;
+    box-shadow: 2px 2px 11px 0px #41464b;
+}
+
+.button-area {
+    display: flex;
+    background-color: #ffffff;
+    padding: 10px;
+    border-top: black 1px solid;
+}
+
+.button-container {
+    margin: auto;
 }
 
 .chat-content {
@@ -35,7 +47,7 @@
 }
 
 .ballon-user {
-    border-radius: 20px 4px 20px 20px;
+    border-radius: 20px 20px 4px 20px;
     background-color: #dd940d;
     margin-left: auto;
 }
@@ -53,4 +65,21 @@
 .answer-button:focus {
     outline: none;
     box-shadow: none;
+}
+
+.tip-text {
+    color: #888888;
+    font-size: 0.8em;                
+    margin-left: 5px;
+}
+
+.title-text {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.btn-close {
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
 }

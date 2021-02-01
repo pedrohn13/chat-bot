@@ -17,7 +17,7 @@ export class ChatBotComponent implements OnInit {
   public finished: boolean;
   public delay: boolean;
   public disableButtons: boolean;
-
+  public hidded: boolean;
 
   constructor() {
     this.showBotMessage(questions[0]);
@@ -63,6 +63,10 @@ export class ChatBotComponent implements OnInit {
 
   endChat() {
     this.finished = true;
+  }
+
+  hideChat() {
+    this.hidded = true;
   }
 
 }
